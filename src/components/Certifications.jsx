@@ -12,7 +12,7 @@ const Certifications = () => {
   ];
 
   return (
-    <section className="py-24 relative">
+    <section id="certifications" className="py-24 relative">
       <div className="max-w-5xl mx-auto px-6">
         <SectionHeading title="Certifications" subtitle="Professional credentials and continuous learning achievements." />
         

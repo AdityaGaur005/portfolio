@@ -39,6 +39,13 @@ const Projects = () => {
       techStack: ["Python", "AWS EC2", "Terraform", "Docker", "CloudWatch", "Bash"],
       github: "https://github.com/AdityaGaur005/vm-auto-scaling-controller",
       live: "#"
+    },
+    {
+      title: "Maritime Anomaly Detection System",
+      description: "An AI-powered system that analyzes vessel movement from historical AIS data to flag anomalies like route deviations and collisions. Evaluates unsupervised models (Transformer-VAE, LSTM Autoencoder), Isolation Forest, and a supervised XGBoost hybrid achieving a peak 0.856 ROC-AUC.",
+      techStack: ["Python", "PyTorch", "XGBoost", "Transformer-VAE", "LSTM Autoencoder", "Isolation Forest"],
+      github: "https://github.com/AdityaGaur005/Maritime-Anomaly-Detection-System",
+      live: "#"
     }
   ];
 

@@ -6,13 +6,16 @@ import { Briefcase, Building2 } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      role: "VAPT Intern",
-      organization: "Global Technology & Information Security (GTIS)",
-      duration: "Apr 2025 – May 2025",
+      role: "AI Intern",
+      organization: "FutureStrive",
+      duration: "Jul 2026 – Present",
       work: [
-        "Performed comprehensive vulnerability assessment and penetration testing.",
-        "Utilized industry-standard tools including Burp Suite and Kali Linux.",
-        "Successfully identified and reported XSS, SQL Injection, and authentication flaws."
+        "Developing an end-to-end AI-powered ConTech platform at FutureStrive to enhance construction-site intelligence and decision-making.",
+        "Building scalable FastAPI REST APIs with PostgreSQL, SQLAlchemy, JWT authentication, and Docker containerization on the backend.",
+        "Developing a responsive React.js and Tailwind CSS frontend to visualize AI-driven insights, crack detection, and defect predictions.",
+        "Implementing RAG (Retrieval-Augmented Generation) pipelines, model explainability, and deploying containerized solutions on Azure.",
+        "Collaborated with the team to analyze the data pipeline, document structure/limitations, and assess and prioritize high-value insights.",
+        "Actively contributed to building and validating the Beta construction intelligence model to drive project success for a major client."
       ]
     },
     {
@@ -20,9 +23,19 @@ const Experience = () => {
       organization: "Teachlly",
       duration: "Dec 2025 – Feb 2026",
       work: [
-        "Built a robust parent-teacher communication platform enhancing user engagement.",
-        "Integrated Firebase and various third-party APIs for real-time functionalities.",
-        "Implemented secure role-based access control protecting sensitive data."
+        "Built a parent-teacher communication application for government schools to facilitate seamless collaboration and updates.",
+        "Integrated Firebase and real-time APIs to enable instant messaging, announcements, and push notifications.",
+        "Implemented secure role-based access control protecting student records and private teacher-parent channels."
+      ]
+    },
+    {
+      role: "VAPT Intern",
+      organization: "Global Technology & Information Security (GTIS)",
+      duration: "Apr 2025 – May 2025",
+      work: [
+        "Performed comprehensive vulnerability assessment and penetration testing.",
+        "Utilized industry-standard tools including Burp Suite and Kali Linux.",
+        "Successfully identified and reported XSS, SQL Injection, and authentication flaws."
       ]
     }
   ];
