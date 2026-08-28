@@ -10,20 +10,17 @@ const Experience = () => {
       organization: "FutureStrive",
       duration: "Jul 2026 – Present",
       work: [
-        "Developing an end-to-end AI-powered ConTech platform at FutureStrive to enhance construction-site intelligence and decision-making.",
-        "Building scalable FastAPI REST APIs with PostgreSQL, SQLAlchemy, JWT authentication, and Docker containerization on the backend.",
-        "Developing a responsive React.js and Tailwind CSS frontend to visualize AI-driven insights, crack detection, and defect predictions.",
-        "Implementing RAG (Retrieval-Augmented Generation) pipelines, model explainability, and deploying containerized solutions on Azure.",
-        "Collaborated with the team to analyze the data pipeline, document structure/limitations, and assess and prioritize high-value insights.",
-        "Actively contributed to building and validating the Beta construction intelligence model to drive project success for a major client."
+        "Developing an end-to-end ConTech platform integrating FastAPI REST APIs, machine learning (crack detection, defect volume prediction), and RAG workflows on Azure.",
+        "Analyzed data pipelines to document structure and limitations, designing optimized, scalable workflows for construction-site intelligence.",
+        "Actively contributed to building the Beta construction intelligence model, prioritizing and implementing high-value insights for a major client."
       ]
     },
     {
       role: "Application Developer",
-      organization: "Teachlly",
+      organization: "Government Schools",
       duration: "Dec 2025 – Feb 2026",
       work: [
-        "Built a parent-teacher communication application for government schools to facilitate seamless collaboration and updates.",
+        "Developed Teachlly, a parent-teacher communication application for government schools to facilitate seamless collaboration.",
         "Integrated Firebase and real-time APIs to enable instant messaging, announcements, and push notifications.",
         "Implemented secure role-based access control protecting student records and private teacher-parent channels."
       ]

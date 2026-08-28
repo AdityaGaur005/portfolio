@@ -13,6 +13,13 @@ const Projects = () => {
       live: "#"
     },
     {
+      title: "Maritime Anomaly Detection System",
+      description: "Architected an end-to-end, self-learning MLOps pipeline for real-time maritime anomaly detection: MLflow for experiment tracking, FastAPI for model serving, Docker/Kubernetes for containerized deployment via GitHub Actions CI/CD. Built automated data-drift detection and self-triggered retraining using Evidently AI for closed-loop monitoring, sustaining robust inference on highly imbalanced (0.3% anomaly) production data.",
+      techStack: ["Python", "Transformer", "ML", "Docker", "Kubernetes", "GitHub Actions", "FastAPI"],
+      github: "https://github.com/AdityaGaur005/Maritime-Anomaly-Detection-System",
+      live: "#"
+    },
+    {
       title: "Real-Time Fake News Detector",
       description: "An AI-powered system that analyzes news content in real time to detect whether information is genuine or fake. It verifies claims using trusted sources and provides credibility insights.",
       techStack: ["Python", "Machine Learning", "NLP", "OpenAI / Gemini API", "FastAPI"],
@@ -38,13 +45,6 @@ const Projects = () => {
       description: "An intelligent infrastructure automation system that monitors virtual machine workload, CPU, memory, and traffic usage in real time, then automatically scales instances to optimize utilization and cost.",
       techStack: ["Python", "AWS EC2", "Terraform", "Docker", "CloudWatch", "Bash"],
       github: "https://github.com/AdityaGaur005/vm-auto-scaling-controller",
-      live: "#"
-    },
-    {
-      title: "Maritime Anomaly Detection System",
-      description: "An AI-powered system that analyzes vessel movement from historical AIS data to flag anomalies like route deviations and collisions. Evaluates unsupervised models (Transformer-VAE, LSTM Autoencoder), Isolation Forest, and a supervised XGBoost hybrid achieving a peak 0.856 ROC-AUC.",
-      techStack: ["Python", "PyTorch", "XGBoost", "Transformer-VAE", "LSTM Autoencoder", "Isolation Forest"],
-      github: "https://github.com/AdityaGaur005/Maritime-Anomaly-Detection-System",
       live: "#"
     }
   ];
