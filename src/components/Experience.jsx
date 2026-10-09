@@ -6,9 +6,19 @@ import { Briefcase, Building2 } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      role: "Generative AI Engineer Intern",
+      organization: "Merck Group",
+      duration: "Sep 2026 – Present",
+      work: [
+        "Engineering enterprise Generative AI workflows, advanced RAG architectures, and agentic systems using state-of-the-art LLMs.",
+        "Developing scalable backend microservices and model serving pipelines on cloud infrastructure to deliver high-throughput, low-latency inference.",
+        "Building automated LLM evaluation frameworks, contextual guardrails, and retrieval benchmarks to ensure enterprise precision and compliance."
+      ]
+    },
+    {
       role: "AI Intern",
       organization: "FutureStrive",
-      duration: "Jul 2026 – Present",
+      duration: "Jul 2026 – Sep 2026",
       work: [
         "Developing an end-to-end ConTech platform integrating FastAPI REST APIs, machine learning (crack detection, defect volume prediction), and RAG workflows on Azure.",
         "Analyzed data pipelines to document structure and limitations, designing optimized, scalable workflows for construction-site intelligence.",

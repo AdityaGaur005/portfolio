@@ -36,13 +36,13 @@ const About = () => {
             className="space-y-6 text-gray-300 text-lg leading-relaxed"
           >
             <p>
-              I am <strong className="text-white font-semibold">Aditya Gaur</strong>, a passionate and driven technology enthusiast focused on DevOps, Cloud Computing, and AI-powered automation. 
+              I am <strong className="text-white font-semibold">Aditya Gaur</strong>, a Cloud & AI Engineer focused on architecting scalable cloud infrastructure, Generative AI pipelines, and intelligent automation.
             </p>
             <p>
-              I enjoy building real-world projects that solve practical problems, improve efficiency, and demonstrate modern engineering practices. My interests include working with AWS, Docker, Terraform, Kubernetes, Python, and automation tools to create scalable and reliable systems.
+              Currently working as a Generative AI Engineer Intern at Merck Group, I specialize in building end-to-end LLM workflows, production RAG systems, and resilient cloud microservices. My core toolkit spans AWS, Azure, Docker, Kubernetes, Terraform, Python, FastAPI, and modern ML/LLM architectures.
             </p>
             <p>
-              I am continuously learning, strengthening my technical skills, and preparing to contribute to innovative teams through impactful projects and professional growth.
+              I bridge the gap between cutting-edge Artificial Intelligence and robust, enterprise-grade cloud systems to deliver reliable, high-performance solutions.
             </p>
           </motion.div>
 

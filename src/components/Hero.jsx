@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail } from 'lucide-react';
 import resumePdf from '../../Aditya Gaur resume.pdf';
-import profileImg from '../../WhatsApp Image 2026-05-01 at 21.31.40.jpeg';
+import profileImg from '../../profile.jpg';
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
               className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] mb-6 tracking-tight"
             >
               I'm <span className="text-white">Aditya Gaur</span>.<br />
-              <span className="text-gray-500 text-4xl md:text-5xl lg:text-6xl mt-4 block">Cloud DevOps &<br/> Automation.</span>
+              <span className="text-gray-500 text-4xl md:text-5xl lg:text-6xl mt-4 block">Cloud & AI<br/>Engineer.</span>
             </motion.h1>
 
             <motion.p 
@@ -42,7 +42,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg md:text-xl text-gray-400 mb-10 max-w-xl leading-relaxed"
             >
-              Building intelligent cloud solutions with DevOps, automation, and modern technologies. I focus on creating scalable, reliable systems that solve real-world problems.
+              Building scalable cloud systems, Generative AI pipelines, and enterprise automation. Specializing in cloud architecture, LLM workflows, and intelligent microservices.
             </motion.p>
 
             <motion.div 
@@ -87,9 +87,9 @@ const Hero = () => {
             <div className="absolute inset-0 bg-accent-500 rounded-full blur-[80px] opacity-20 transform translate-x-4 translate-y-4 w-full max-w-[400px] mx-auto"></div>
             <img 
               src={profileImg} 
-              alt="Aditya Gaur" 
-              className="relative z-10 w-full max-w-[320px] md:max-w-[400px] lg:max-w-[450px] mx-auto rounded-[2rem] object-cover shadow-2xl border border-white/10"
-              style={{ aspectRatio: '4/5' }}
+              alt="Aditya Gaur - Cloud & AI Engineer" 
+              className="relative z-10 w-full max-w-[320px] md:max-w-[380px] lg:max-w-[420px] mx-auto rounded-[2rem] object-cover object-top shadow-2xl border border-white/10"
+              style={{ aspectRatio: '3/4' }}
             />
           </motion.div>
         </div>

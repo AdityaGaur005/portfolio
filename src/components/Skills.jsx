@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: "Cloud",
       icon: <Cloud className="w-5 h-5" />,
-      skills: ["AWS EC2", "AWS Lambda", "Amazon S3", "IAM", "VPC", "CloudWatch", "API Gateway"]
+      skills: ["AWS", "Azure", "AWS Lambda", "Amazon S3", "IAM", "API Gateway", "CloudWatch"]
     },
     {
       title: "DevOps & Automation",
@@ -26,9 +26,9 @@ const Skills = () => {
       skills: ["FastAPI", "REST APIs", "React", "Tailwind CSS"]
     },
     {
-      title: "AI / ML",
+      title: "AI & Generative AI",
       icon: <Brain className="w-5 h-5" />,
-      skills: ["NLP", "Transformer Models", "Model Training", "Evaluation", "OpenAI API", "Gemini API"]
+      skills: ["Generative AI", "RAG Pipelines", "LLMs", "Prompt Engineering", "NLP", "OpenAI / Gemini API", "PyTorch"]
     },
     {
       title: "Other Tools",
