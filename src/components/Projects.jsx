@@ -14,8 +14,8 @@ const Projects = () => {
     },
     {
       title: "Maritime Anomaly Detection System",
-      description: "Architected an end-to-end, self-learning MLOps pipeline for real-time maritime anomaly detection: MLflow for experiment tracking, FastAPI for model serving, Docker/Kubernetes for containerized deployment via GitHub Actions CI/CD. Built automated data-drift detection and self-triggered retraining using Evidently AI for closed-loop monitoring, sustaining robust inference on highly imbalanced (0.3% anomaly) production data.",
-      techStack: ["Python", "Transformer", "ML", "Docker", "Kubernetes", "GitHub Actions", "FastAPI"],
+      description: "A hybrid deep learning framework for real-time maritime vessel anomaly detection evaluated on 88M AIS records (HawaiiCoast_GT benchmark, 154 real incidents). Fuses trajectory reconstruction errors from a 6-layer Transformer-VAE and LSTM Autoencoder with kinematic signals into a 55-feature vector consumed by a calibrated XGBoost classifier (0.853 grouped CV AUC-ROC). Features real-time serving via FastAPI over live AISstream.io WebSockets, SQLite-backed per-vessel adaptive baselines, and a distribution drift engine (KS statistic & PSI) for automated self-learning.",
+      techStack: ["PyTorch", "Transformer-VAE", "LSTM-AE", "XGBoost", "FastAPI", "WebSockets", "Docker", "Concept Drift"],
       github: "https://github.com/AdityaGaur005/Maritime-Anomaly-Detection-System",
       live: "#"
     },

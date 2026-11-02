@@ -26,9 +26,9 @@ const Skills = () => {
       skills: ["FastAPI", "REST APIs", "React", "Tailwind CSS"]
     },
     {
-      title: "AI & Generative AI",
+      title: "AI & Autonomous Agents",
       icon: <Brain className="w-5 h-5" />,
-      skills: ["Generative AI", "RAG Pipelines", "LLMs", "Prompt Engineering", "NLP", "OpenAI / Gemini API", "PyTorch"]
+      skills: ["Claude Code", "Model Context Protocol (MCP)", "AI Agents & Workflows", "Generative AI", "RAG Pipelines", "LLMs", "LangChain / LangGraph", "Prompt Engineering", "PyTorch"]
     },
     {
       title: "Other Tools",

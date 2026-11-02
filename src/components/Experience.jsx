@@ -10,9 +10,9 @@ const Experience = () => {
       organization: "Merck Group",
       duration: "Sep 2026 – Present",
       work: [
-        "Engineering enterprise Generative AI workflows, advanced RAG architectures, and agentic systems using state-of-the-art LLMs.",
-        "Developing scalable backend microservices and model serving pipelines on cloud infrastructure to deliver high-throughput, low-latency inference.",
-        "Building automated LLM evaluation frameworks, contextual guardrails, and retrieval benchmarks to ensure enterprise precision and compliance."
+        "Architected an intelligent developer CLI/IDE plugin and autonomous agent that guides engineers end-to-end through application deployment to the platform.",
+        "Engineered automated issue diagnostics that proactively identify build and deployment failures, pinpoint root-cause bugs, and suggest verified fixes.",
+        "Built intelligent post-deployment log monitoring that autonomously parses runtime telemetry, detects errors, and alerts developers without requiring manual log triaging."
       ]
     },
     {
@@ -20,9 +20,10 @@ const Experience = () => {
       organization: "FutureStrive",
       duration: "Jul 2026 – Sep 2026",
       work: [
-        "Developing an end-to-end ConTech platform integrating FastAPI REST APIs, machine learning (crack detection, defect volume prediction), and RAG workflows on Azure.",
-        "Analyzed data pipelines to document structure and limitations, designing optimized, scalable workflows for construction-site intelligence.",
-        "Actively contributed to building the Beta construction intelligence model, prioritizing and implementing high-value insights for a major client."
+        "Contributed to the development of an AI-powered Construction Intelligence Platform, building and optimizing core full-stack components.",
+        "Integrated AI/ML capabilities into the platform to support and automate construction-related analysis workflows.",
+        "Architected AWS cloud infrastructure, managing deployment pipelines and hosting core platform services.",
+        "Developed a RAG-based AI chatbot for the company website, enabling seamless natural-language querying over company-specific knowledge."
       ]
     },
     {
